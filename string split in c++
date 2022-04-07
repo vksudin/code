@@ -1,0 +1,4 @@
+std::vector<std::string> words;
+    std::istringstream iss(s);
+    for (std::string str; iss >> str; )
+        words.push_back(str);
